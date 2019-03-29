@@ -3,21 +3,13 @@
   "version": "1.0.0",
   "description": "reponsive portfolio website",
   "main": "index.js",
-  "homepage": "https://geniusjonathan.github.io/myportfoliousingsass",
+  "homepage": "https://geniusjonathan.github.io/MyPortfolioUsingSass",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GeniusJonathan/MyPortfolioUsingSass.git"
-  },
   "author": "Jonathan Li",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/GeniusJonathan/MyPortfolioUsingSass/issues"
-  },
-  "homepage": "https://github.com/GeniusJonathan/MyPortfolioUsingSass#readme",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
