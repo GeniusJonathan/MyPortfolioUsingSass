@@ -28,12 +28,15 @@
     div.menu-branding {
         float: none;
         width: 100%;
-        opacity: 0.98;
         min-height: 0;
 
         &.show {
             transform: translate3d(0, 0, 0);
         }
+    }
+
+    #bg-img .menu-nav {
+        opacity: 0.98;
     }
 
     .menu-nav {

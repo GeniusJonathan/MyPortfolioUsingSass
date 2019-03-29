@@ -54,6 +54,7 @@
         align-items: center;
         justify-content: center;
         float: left;
+        opacity: 0.98;  
         width: 50%;
         height: 100vh;
         overflow: hidden;
@@ -62,7 +63,6 @@
     &-nav {
         margin: 0;
         padding: 0;
-        opacity: 0.8;  
         background: darken($primary-color, 5);
         list-style: none;
         transform: translate3d(0, -100%, 0);
@@ -77,7 +77,6 @@
     // Branding Side
     &-branding {
         background: $primary-color;
-        opacity: 0.96;
         transform: translate3d(0, 100%, 0);
         @include easeOut;
 
@@ -124,6 +123,10 @@
             color: $secondary-color;
         }
     }
+}
+
+#bg-img .menu-nav {
+    opacity: 0.7;
 }
 
 // Delay each nav item slide by 0.1s
