@@ -294,6 +294,8 @@ main {
     padding: 1.5rem; }
   main#home h1 {
     margin-top: 10vh; }
+  .bio {
+    font-size: 1rem !important; }
   .projects {
     grid-template-columns: 1fr; }
   h1,
